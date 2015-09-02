@@ -1,0 +1,14 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="test3.VIEWS.details" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="{srinivas>Detail}" showNavButton="{device>device}" 
+	                        navButtonType="Back"
+	                        navButtonPress="reverse">
+		<content>
+		<VBox>
+		<Text text="{Fax}"></Text>
+		
+		</VBox>
+	
+		</content>
+	</Page>
+</core:View>
